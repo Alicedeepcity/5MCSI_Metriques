@@ -38,9 +38,9 @@ def histogramme():
 
 app = Flask(__name__)
 
-@app.route('/contact/')
-def contact():
-    return render_template('contact.html')
+@app.route("/contact/")
+def MaPremiereAPI():
+    return render_template("contact.html")
 
 if __name__ == '__main__':
     app.run(debug=True)
